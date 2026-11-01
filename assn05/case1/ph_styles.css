@@ -1,16 +1,16 @@
 @charset "utf-8";
 @font-face {
-   font-family: Champagne;
+   font-family: 'Champagne';
    src: url('cac_champagne.woff') format('woff'),
    url('cac_champagne.ttf') format('truetype');
 }
 @font-face {
-   font-family: Grunge;
+   font-family: 'Grunge';
     src: url('1942.woff') format('woff'),
    url('1942.ttf') format('truetype');
 }
 @font-face {
-   font-family: Dobkin;
+   font-family: 'Dobkin';
    src: url('DobkinPlain.woff') format('woff'),
    url('DobkinPlain.ttf') format('truetype');
 }
@@ -104,3 +104,13 @@ section.playbill h1 {
   font-family: Dauphin, cursive;
 }
 /* Description List Styles */
+dt{
+   font-size: 1.3em;
+   font-weight: bold;
+   color: hsla(0, 0%, 0%, 0.4);
+}
+dd {
+   font-size: 1.3em;
+   margin-left: 0px;
+   margin-bottom: 10px;
+}
