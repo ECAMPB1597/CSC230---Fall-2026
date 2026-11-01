@@ -56,7 +56,7 @@ address {
 }
 
 /* Navigation Styles */
-nav a {
+nav {
    font-family: 'Trebuchet MS', Helvetica, sans-serif;
    padding: 10px 0;
 }
