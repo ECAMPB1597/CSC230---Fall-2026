@@ -5,8 +5,8 @@
    Tutorial Case
    
    Style Sheet for Grids used in the Pandaisia Chocolates website
-   Author: 
-   Date:   
+   Author: Emma Campbell
+   Date:   11/5/26
    
    Filename: pc_grids.css
 
@@ -14,6 +14,12 @@
 
 
 /* Grid Styles for Page Body */
-
+body {
+   display: grid;
+}
 
 /* Grid Styles for Nested Grid */
+
+section {
+   display: grid;
+}
