@@ -46,15 +46,40 @@ aside {
 
 
 /* Map Styles */
+div#battleMap {
+   width: 688px;
+   margin: 20px auto;
+   position: relative;
+}
 
+img#mapImage {
+   display: block;
+   width: 100%;
+}
 
-
-
+a.battleMarkers {
+   position: absolute;
+}
 /* Interactive Map Styles */
+a#marker1 {
+   top: 220px;
+   left: 340px;
+}
 
+a#marker2 {
+   top: 194px;
+   left: 358px;
+}
 
+a#marker4 {
+   top: 217px;
+   left: 452px;
+}
 
-
+a#marker6 {
+   top: 246px;
+   left: 544px;
+}
 /* Map Information Styles */
 
 
