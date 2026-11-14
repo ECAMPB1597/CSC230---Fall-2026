@@ -81,6 +81,10 @@ a#marker6 {
    left: 544px;
 }
 /* Map Information Styles */
+div.mapInfo {
+   display: none;
+}
 
-
-
+a.battleMarkers:hover + div.mapInfo {
+   display: block;
+}
