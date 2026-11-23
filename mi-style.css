@@ -1,6 +1,26 @@
 @charset "utf-8";
-
+ 
 /* Body Styles */
 body {
-    background-color: rbg(205, 92, 92); 
+    background-color: indianred; 
 }
+html, button, input, select, textarea {
+	font-family: serif;
+    color: black;
+/* hyperlinks*/
+    a {
+	color:#7C7B6F;
+}
+a:visited {
+	color: #DDCACE;
+}
+a:hover {
+	color: #DDCACE;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover, a:active {
+	outline: 0;
+}
+/*Footer Style */

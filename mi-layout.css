@@ -1,3 +1,39 @@
 @charset "utf-8";
 
+/*Header Styles*/
+Header {
+   margin-bottom: 10px;
+	width: 96%;
+    font-size: 1.3em;
+}
+/*HTML and Body Styles */
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   padding-left: 5%;
+   padding-right: 5%;
+   min-height: 100%;
+}
 /*Article Styles */
+article{
+    width: 80%;
+	float: left;
+	font-size: 1em;
+	text-align: left;
+    }
+/* Footer Styles */
+footer{
+    width: 96%;
+	clear: left;
+	text-align: left;
+	font-size: 1.2em;
+	margin-top: 30px;
+}
